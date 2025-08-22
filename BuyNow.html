@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><style > body {
+        margin: 0px;
+      }
+      .Title img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+      }
+      .Title {
+        background-color: #f6f2f0;
+      }
+      .Title hr {
+        background-color: #b76e79;
+        border-color: #e6b7c1;
+        margin: 0px;
+      }
+      .navBar nav hr {
+        background-color: #b76e79;
+        border-color: #e6b7c1;
+        margin: 1px;
+      }
+      .left {
+        width: 25%;
+        border-right: 2px double #b76e79;
+        background-color: #d3a1a6;
+        flex-shrink: 0;
+      }
+      .navBar nav a {
+        font-family: Helvetica;
+        text-decoration: none;
+        color: #f6f2f0;
+        padding-left: 9px;
+      }
+      footer h3 {
+        font-family: Courier;
+        font-size: 16px;
+        text-align: right;
+        display: inline-block;
+        color: #b76e79;
+        margin-right: 10%;
+        margin-left: 10%;
+      }
+      footer {
+        border: 2px double #b76e79;
+        background-color: #f6f2f0;
+      }
+      .ad img {
+        max-width: 250px;
+        width: 90%;
+      }
+      figcaption {
+        font-family: Calibri;
+        font-size: 15px;
+        text-decoration: underline;
+        color: black;
+        padding-left: 4px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .ad {
+        background-color: #f6f2f0;
+        border: 1px solid #faf9f6;
+      }
+      .main img {
+        display: flex;
+        width: 99.8%;
+      }
+      .content {
+        display: flex;
+      }
+      main {
+        position: relative;
+        display: inline-block;
+      }
+      .SHOP {
+        position: absolute;
+        bottom: 30%;
+        left: 38%;
+        height: 10%;
+        width: 20%;
+        background-color: white;
+        font-size: 25px;
+        border: 2px solid black;
+        text-align: center;
+        color: black;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      .CandleOne p,
+      .CandleOne ul li,
+      .CandleOne h2,
+      .CandleTwo p,
+      .CandleTwo ul li,
+      .CandleTwo h2,
+      .OilOne p,
+      .OilOne ul li,
+      .OilOne h2,
+      .OilTwo p,
+      .OilTwo ul li,
+      .OilTwo h2,
+      .SetOne p,
+      .SetOne ul li,
+      .SetOne h2 {
+        font-family: Garamond, serif;
+        flex-direction: column;
+        margin-left: 20px;
+        font-size: 18px;
+      }
+      .CandleOne img,
+      .CandleTwo img,
+      .OilOne img,
+      .OilTwo img,
+      .SetOne img {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+      }
+      .CandleOne a,
+      .CandleTwo a,
+      .OilOne a,
+      .OilTwo a,
+      .SetOne a {
+        background-color: #b76e79;
+        font-size: 35px;
+        border: 2px solid white;
+        text-align: center;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        padding: 20px;
+        margin: 20px;
+        position: relative;
+      }
+      .form button{
+        background-color: #b76e79;
+        font-size: 25px;
+        border: 2px solid white;
+        text-align: center;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        padding: 10px;
+        margin: 20px;
+      }
+      .CandleOne h3,
+      .CandleTwo h3,
+      .OilOne h3,
+      .OilTwo h3,
+      .SetOne h3 {
+        color: black;
+        font-size: 15px;
+        font-family: Georgia, serif;
+        font-weight: normal;
+        margin-left: 20px;
+      }
+      .form h1{
+        align-items: center;
+        font-size: 40px;
+        color: #b76e79;
+        margin-top: 30px;
+        font-family: Garamond;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+      }
+      .form h3{
+        font-family: Courier;
+        font-size: 16px;
+        font-weight: normal;
+        width: 95%;
+        text-align: center;
+      }
+      .form{
+        margin-left: 10%;
+      }
+      .form label{
+        font-family: Courier;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        display: block;
+        font-size: 25px; 
+      }
+      .enter {
+        border: 1px solid #b76e79;
+        width: 65%;
+        height: 25px;
+        margin-bottom: 5px;
+      }
+      .menu {
+        border-color: #b76e79;
+        width: 65%;
+        height: 30px;
+        margin-bottom: 5px;
+      }
+      .terms{
+        font-family: Courier;
+        font-size: 16px;
+        font-weight: normal;
+        width: 95%;
+      }
+      
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elara ~ Self care simplified</title>
+  </head>
+  <body>
+    <!--Title first line-->
+    <div class="Title">
+      <img src="logo.jpeg" alt="logo" />
+      <hr />
+      <hr />
+    </div>
+
+    <!--left side, nav bar-->
+    <section class="content">
+      <section class="left">
+        <div class="navBar">
+          <nav>
+            <hr />
+            <br /><a href="index.html"> Home</a><br /><br />
+            <hr />
+            <br /><a href="ScentedCandles.html"> Scented Candles </a
+            ><br /><br />
+            <hr />
+            <br /><a href="EssentialOils.html"> Essential Oils </a><br /><br />
+            <hr />
+            <br /><a href="GiftSet.html"> Gift Set </a><br /><br />
+            <hr />
+          </nav>
+        </div>
+        <br /><br />
+        <div class="ad">
+          <fig>
+            <h5>AD</h5>
+            <a href="index.html">
+              <img src="ad.jpeg" alt="ad for my website" />
+              <figcaption>
+                <u> Unwind, Refresh, Revive – Your Self-Care Sanctuary. </u>
+              </figcaption>
+            </a>
+            <br />
+          </fig>
+        </div>
+      </section>
+
+      <!--Main content of homepage-->
+      <section class="main">
+        <div class="form">
+        <h1> Confirm your purchase</h1>
+        <h3> Please note: This product is available for Cash on Delivery (COD) only. Once an order is placed it cannot be cancelled. </h3>
+        <main>
+          <form action="thanks.html">
+            <!--Name -->
+            <section class="name">
+              <label> Name:</label>
+              <input type="text" class="enter" required>
+            </section>
+            <!--Contact No. -->
+            <section class="contact">
+              <label> Contact Number:</label>
+              <input type="number" class="enter" min=1000000000 max=9999999999 required/>
+            </section>
+            <!--Email -->
+            <section class="email">
+              <label> Email ID:</label>
+              <input type="email" class="enter" required/>
+            </section>
+            <!--Quantity -->
+            <section class="quantity">
+              <label> Quantity:</label>
+              <select name="quantity" class="menu">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </section>
+            <!--City -->
+            <section class="city">
+              <label>City:</label>
+              <input type="text" class="enter" required/>
+            </section>
+            <!--State -->
+            <section class="state">
+              <label> State:</label>
+              <input type="text" class="enter" required/>
+            </section>
+            <!--Pin Code -->
+            <section class="pin">
+              <label> Pin Code:</label>
+              <input type="text" class="enter" required/>
+            </section>
+            <!--Address -->
+            <section class="address">
+              <label> Address for delivery:</label>
+              <input type="text" class="enter" required/>
+            </section>
+            <!--Alternate Address -->
+            <section class="altAddress">
+              <label> Alternate Address:</label>
+              <input type="text" class="enter" required>
+            </section>
+            <br><br>
+            <!--All terms and conditions -->
+            <section class="terms">
+            <input type="checkbox" required /> By ticking this box, you agree to
+            our Terms and Conditions and Privacy Policy.</section>
+            <br><br>
+            <!--Submit button -->
+             <button type="submit"> Submit </button>
+          </form>
+        </div>
+        </main>
+      </section>
+    </section>
+
+    <!--Footer with contact info and more-->
+    <footer>
+      <h3>Locations: Pune | Delhi | Bangalore | Mumbai</h3>
+      <h3><u>Contact us:</u> +123 456 789</h3>
+    </footer>
+  </body>
+</html>
